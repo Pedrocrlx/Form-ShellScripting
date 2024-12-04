@@ -6,7 +6,7 @@ RUN apt install -y vim
 
 WORKDIR /home/ubuntu/scripts
 
-COPY ./eticGeneral/Linux/samples .
+COPY ./samples .
 
 RUN chmod +x ./script.sh
 
