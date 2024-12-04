@@ -25,3 +25,4 @@ done
 for index in ${!names[@]}; do
     echo "${names[index]} está na posição $index"
 done
+

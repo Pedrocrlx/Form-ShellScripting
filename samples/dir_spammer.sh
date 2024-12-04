@@ -14,3 +14,6 @@ done
 
 # Mensagem de sucesso
 echo "Pastas criadas com sucesso."
+
+#senão vai rodar o script vai fazer oq tem a fazer e vai encerrar o container
+bash
