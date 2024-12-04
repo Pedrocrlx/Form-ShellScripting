@@ -8,7 +8,7 @@ WORKDIR /home/ubuntu/scripts
 
 COPY ./samples .
 
-RUN chmod +x ./01.sh ./ex_loop.sh ./dir_spammer.sh
+RUN chmod +x ./01.sh ./02.sh ./ex_loop.sh ./dir_spammer.sh
 
 ENTRYPOINT  [ "./dir_spammer.sh" ]
 
